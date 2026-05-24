@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Virtual Lab Hukum Hooke
+    </title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+    href="style.css">
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ========================================= -->
+    <!-- OVERLAY -->
+    <!-- ========================================= -->
+
+    <div class="overlay"></div>
+
+    <!-- ========================================= -->
+    <!-- OPENING -->
+    <!-- ========================================= -->
+
+    <section class="screen active"
+    id="opening">
+
+        <div class="opening-content">
+
+            <h3 class="mini-title">
+
+                VIRTUAL PHYSICS LAB
+
+            </h3>
+
+            <h1 class="main-title">
+
+                HUKUM HOOKE
+
+            </h1>
+
+            <p class="opening-desc">
+
+                Laboratorium virtual interaktif
+                untuk mempelajari hubungan antara
+                gaya dan pertambahan panjang pegas
+                berdasarkan Hukum Hooke.
+
+            </p>
+
+            <button class="next-btn"
+            data-next="tujuan">
+
+                Mulai Praktikum
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- TUJUAN -->
+    <!-- ========================================= -->
+
+    <section class="screen"
+    id="tujuan">
+
+        <div class="content-box">
+
+            <h2>
+
+                <i class="fa-solid fa-bullseye"></i>
+
+                Tujuan Praktikum
+
+            </h2>
+
+            <div class="card-container">
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <p>
+
+                        Mengetahui hubungan antara gaya
+                        dengan pertambahan panjang pegas.
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <p>
+
+                        Menentukan konstanta pegas
+                        berdasarkan data percobaan.
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <p>
+
+                        Memahami sifat elastis pegas
+                        berdasarkan Hukum Hooke.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn"
+            data-next="alat">
+
+                Lanjut
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- ALAT DAN BAHAN -->
+    <!-- ========================================= -->
+
+    <section class="screen"
+    id="alat">
+
+        <div class="content-box">
+
+            <h2>
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                Alat dan Bahan
+
+            </h2>
+
+            <div class="tools-container">
+
+                <!-- STATIF -->
+
+                <div class="tool-card">
+
+                    <img src="assets/stand.png"
+                    alt="stand">
+
+                    <h3>Statif</h3>
+
+                    <p>
+
+                        Digunakan sebagai penyangga
+                        pegas saat praktikum berlangsung.
+
+                    </p>
+
+                </div>
+
+                <!-- PEGAS -->
+
+                <div class="tool-card">
+
+                    <img src="assets/spring.png"
+                    alt="spring">
+
+                    <h3>Pegas</h3>
+
+                    <p>
+
+                        Digunakan untuk mengamati
+                        pertambahan panjang akibat gaya.
+
+                    </p>
+
+                </div>
+
+                <!-- BEBAN -->
+
+                <div class="tool-card">
+
+                    <img src="assets/weight.png"
+                    alt="weight">
+
+                    <h3>Beban</h3>
+
+                    <p>
+
+                        Digunakan untuk memberikan gaya
+                        pada pegas.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn"
+            data-next="prosedur">
+
+                Lanjut
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- PROSEDUR -->
+    <!-- ========================================= -->
+
+    <section class="screen"
+    id="prosedur">
+
+        <div class="content-box">
+
+            <h2>
+
+                <i class="fa-solid fa-list-check"></i>
+
+                Prosedur Praktikum
+
+            </h2>
+
+            <div class="procedure-list">
+
+                <div class="procedure-item">
+
+                    <span>1</span>
+
+                    <p>
+
+                        Drag statif dari toolbox
+                        ke area praktikum.
+
+                    </p>
+
+                </div>
+
+                <div class="procedure-item">
+
+                    <span>2</span>
+
+                    <p>
+
+                        Pasang pegas pada statif.
+
+                    </p>
+
+                </div>
+
+                <div class="procedure-item">
+
+                    <span>3</span>
+
+                    <p>
+
+                        Pilih massa beban
+                        yang akan digunakan.
+
+                    </p>
+
+                </div>
+
+                <div class="procedure-item">
+
+                    <span>4</span>
+
+                    <p>
+
+                        Jalankan simulasi dan
+                        amati gerak pegas.
+
+                    </p>
+
+                </div>
+
+                <div class="procedure-item">
+
+                    <span>5</span>
+
+                    <p>
+
+                        Catat data hasil percobaan.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn"
+            data-next="simulasi">
+
+                Mulai Simulasi
+
+                <i class="fa-solid fa-flask"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SIMULASI -->
+    <!-- ========================================= -->
+
+    <section class="screen"
+    id="simulasi">
+
+        <div class="simulation-layout">
+
+            <!-- ========================================= -->
+            <!-- TOOLBOX -->
+            <!-- ========================================= -->
+
+            <div class="toolbox">
+
+                <h2>
+
+                    Toolbox
+
+                </h2>
+
+                <!-- STATIF -->
+
+                <div class="tool-item draggable-tool"
+                draggable="true"
+                data-tool="stand">
+
+                    <img src="assets/stand.png"
+                    alt="">
+
+                    <p>Statif</p>
+
+                </div>
+
+                <!-- PEGAS -->
+
+                <div class="tool-item draggable-tool"
+                draggable="true"
+                data-tool="spring">
+
+                    <img src="assets/spring.png"
+                    alt="">
+
+                    <p>Pegas</p>
+
+                </div>
+
+                <!-- BEBAN -->
+
+                <div class="tool-item draggable-tool"
+                draggable="true"
+                data-tool="weight">
+
+                    <img src="assets/weight.png"
+                    alt="">
+
+                    <p>Beban</p>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================= -->
+            <!-- AREA PRAKTIKUM -->
+            <!-- ========================================= -->
+
+            <div class="lab-area">
+
+                <h2>
+
+                    Area Praktikum
+
+                </h2>
+
+                <!-- DROP AREA -->
+
+                <div class="experiment-zone"
+                id="drop-zone">
+
+                    <!-- PETUNJUK -->
+
+                    <div class="drop-hint">
+
+                        Drag alat dari toolbox
+                        ke area praktikum ✨
+
+                    </div>
+
+                    <!-- STATIF -->
+
+                    <img src="assets/stand.png"
+                    class="stand-sim draggable"
+                    id="stand-object">
+
+                    <!-- PEGAS -->
+
+                    <img src="assets/spring.png"
+                    class="spring-sim draggable"
+                    id="spring-object">
+
+                    <!-- BEBAN -->
+
+                    <img src="assets/weight.png"
+                    class="weight-sim draggable"
+                    id="weight-object">
+
+                </div>
+
+                <!-- ========================================= -->
+                <!-- CONTROL -->
+                <!-- ========================================= -->
+
+                <div class="control-panel">
+
+                    <!-- PILIH MASSA -->
+
+                    <select id="mass-selector">
+
+                        <option value="50">
+
+                            50 gram
+
+                        </option>
+
+                        <option value="100">
+
+                            100 gram
+
+                        </option>
+
+                        <option value="150">
+
+                            150 gram
+
+                        </option>
+
+                        <option value="200">
+
+                            200 gram
+
+                        </option>
+
+                        <option value="250">
+
+                            250 gram
+
+                        </option>
+
+                    </select>
+
+                    <!-- MULAI -->
+
+                    <button id="start-exp">
+
+                        Mulai Simulasi
+
+                    </button>
+
+                    <!-- RESET -->
+
+                    <button id="reset-exp">
+
+                        Reset
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================= -->
+            <!-- DATA PANEL -->
+            <!-- ========================================= -->
+
+            <div class="data-panel">
+
+                <h2>
+
+                    Data Percobaan
+
+                </h2>
+
+                <!-- DATA -->
+
+                <div class="data-box">
+
+                    <p>
+
+                        Massa :
+                        <span id="massa">
+
+                            0 g
+
+                        </span>
+
+                    </p>
+
+                    <p>
+
+                        Gaya :
+                        <span id="gaya">
+
+                            0 N
+
+                        </span>
+
+                    </p>
+
+                    <p>
+
+                        Pertambahan Panjang :
+                        <span id="panjang">
+
+                            0 cm
+
+                        </span>
+
+                    </p>
+
+                </div>
+
+                <!-- STATUS -->
+
+                <div class="formula-box">
+
+                    <h3>
+
+                        Status Praktikum
+
+                    </h3>
+
+                    <p id="status-text">
+
+                        Menunggu alat dipasang...
+
+                    </p>
+
+                </div>
+
+                <!-- RUMUS -->
+
+                <div class="formula-box">
+
+                    <h3>
+
+                        Rumus
+
+                    </h3>
+
+                    <p>
+
+                        F = kx
+
+                    </p>
+
+                </div>
+
+                <!-- BUTTON -->
+
+                <button class="next-btn"
+                data-next="kesimpulan">
+
+                    Lihat Kesimpulan
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- KESIMPULAN -->
+    <!-- ========================================= -->
+
+    <section class="screen"
+    id="kesimpulan">
+
+        <div class="content-box">
+
+            <h2>
+
+                <i class="fa-solid fa-book"></i>
+
+                Kesimpulan
+
+            </h2>
+
+            <div class="conclusion-box">
+
+                <p>
+
+                    Berdasarkan percobaan virtual
+                    yang dilakukan, semakin besar
+                    gaya yang diberikan pada pegas,
+                    maka semakin besar pula
+                    pertambahan panjang pegas.
+
+                </p>
+
+                <p>
+
+                    Hasil simulasi menunjukkan bahwa
+                    gaya berbanding lurus dengan
+                    pertambahan panjang pegas
+                    sesuai dengan Hukum Hooke.
+
+                </p>
+
+            </div>
+
+            <button id="restart-btn">
+
+                Ulangi Praktikum
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- AUDIO -->
+    <!-- ========================================= -->
+
+    <!-- CLICK -->
+
+    <audio id="click-sound"
+    src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3">
+    </audio>
+
+    <!-- SPRING -->
+
+    <audio id="spring-sound"
+    src="https://assets.mixkit.co/active_storage/sfx/2217/2217-preview.mp3">
+    </audio>
+
+    <!-- DROP -->
+
+    <audio id="drop-sound"
+    src="https://assets.mixkit.co/active_storage/sfx/2570/2570-preview.mp3">
+    </audio>
+
+    <!-- ========================================= -->
+    <!-- JS -->
+    <!-- ========================================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
